@@ -1,0 +1,64 @@
+/* SectorList.css */
+
+.sector-container {
+  padding: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.sector-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+  gap: 8px;
+}
+
+.sector-title {
+  margin: 0;
+  font-size: 24px;
+  flex: 1;
+}
+
+.sector-add-btn {
+  flex-shrink: 0;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .sector-title {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .sector-header {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .sector-add-btn {
+    width: 100%;
+    text-align: right;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .sector-header {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .sector-add-btn {
+    width: 100%;
+    text-align: right;
+  }
+
+  .sector-title {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+}

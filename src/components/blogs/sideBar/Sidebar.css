@@ -1,0 +1,135 @@
+/* Sidebar solid look */
+.sidebar {
+  background: #fff !important; /* solid white sidebar like your image */
+  border-right: 1px solid #e5e5e5;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  overflow-y: auto;
+}
+
+/* Logo */
+.logo-box {
+  text-align: center;
+  padding: 20px 10px;
+}
+.logo {
+  width: 150px;
+  height: auto;
+  object-fit: contain;
+  transition: all 0.3s ease-in-out;
+}
+.logo.collapsed {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+/* Menu items */
+.menu {
+  background: transparent !important;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+/* Default text/icon color */
+.menu .ant-menu-item,
+.menu .ant-menu-submenu-title {
+  color: #000 !important;
+  margin: 4px 12px;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+/* Hover */
+.menu .ant-menu-item:hover,
+.menu .ant-menu-submenu-title:hover {
+  background: #f5f5f5 !important;
+  color: #1677ff !important;
+}
+
+/* Selected */
+.menu .ant-menu-item-selected {
+  background: #e6f0ff !important;
+  color: #1677ff !important;
+  font-weight: bold;
+}
+
+/* Icons */
+.menu .ant-menu-item .anticon,
+.menu .ant-menu-submenu-title .anticon {
+  font-size: 16px;
+}
+
+
+/* Header */
+.header {
+  background: #fff;
+  border-bottom: 1px solid #e5e7eb;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 64px;
+}
+
+/* Right Section */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Icons (Globe & Bell) */
+.header-icon {
+  font-size: 20px;
+  color: #444;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.header-icon:hover {
+  color: #000;
+}
+
+/* Search Bar */
+.search-box {
+  display: flex;
+  align-items: center;
+  background: #f5f6fa;
+  border-radius: 20px;
+  padding: 6px 12px;
+  min-width: 240px;
+  height: 43px;
+  transition: box-shadow 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08); /* subtle shadow */
+}
+
+/* Hover effect */
+.search-box:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  background: #fff; /* makes it pop on hover */
+}
+.search-box input {
+  border: none;
+  outline: none;
+  background: transparent;
+  margin-left: 8px;
+  font-size: 14px;
+  flex: 1;
+}
+
+.search-icon {
+  font-size: 16px;
+  color: #777;
+}
+
+/* Avatar */
+.header-avatar img {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}
