@@ -51,7 +51,8 @@ function App() {
            
           
             <Route path="/admin/Eventlist" element={<EventList />} />
-            <Route path="/admin/edit-event/:id" element={<EditEvent />} />
+            <Route path="/admin/events/edit/:id" element={<EditEvent />} />
+
             <Route path="/admin/create-event" element={<Event />} />
             <Route path="/admin/CampaignUsers/" element={<AdminEventUsers />} />
           </Route>
