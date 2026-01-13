@@ -171,7 +171,7 @@ const Login = () => {
 
           <div className="text-center mt-4">
             <small className="text-light-50">
-              © 2026 NewgenSoftTech. All rights reserved.
+              © 2026 paisagram. All rights reserved.
             </small>
           </div>
         </div>
