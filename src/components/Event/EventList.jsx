@@ -93,7 +93,7 @@ const EventList = () => {
         <Card.Body>
           <Stack direction="horizontal" className="mb-4 justify-content-between">
             <h4 className="mb-0">All Events</h4>
-            <Button variant="primary" onClick={() => navigate("/admin/AddEvent")}>
+            <Button variant="primary" onClick={() => navigate("/admin/create-event")}>
               + Add Events
             </Button>
           </Stack>
