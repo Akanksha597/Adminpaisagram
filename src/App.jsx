@@ -8,7 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 import Login from "./auth/Login";
 import Signup from "./auth/Signup";
-import Sidebar from "./components/blogs/sideBar/Sidebar";
+import Sidebar from "./components/sideBar/Sidebar";
 import Dashboard from "./pages/Dashboard";
 
 

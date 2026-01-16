@@ -13,9 +13,9 @@ import {
   GlobalOutlined,
 } from '@ant-design/icons';
 import { Outlet, useNavigate, useLocation } from 'react-router-dom';
-import { useAuth } from '../../../auth/AuthContext';
+import { useAuth } from '../../auth/AuthContext';
 import { toast } from 'react-toastify';
-import Shreelogo from '../../../assets/logo/Paisagramindia_Logo_.webp';
+import Shreelogo from '../../assets/logo/Paisagramindia_Logo_.webp';
 import axios from "axios";
 import './Sidebar.css';
 
