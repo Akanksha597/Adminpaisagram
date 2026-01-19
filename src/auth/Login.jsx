@@ -93,7 +93,7 @@ const Login = () => {
           {/* Logo */}
           <div className="text-center mb-4">
             <img src={Shreelogo} alt="Logo" style={{ width: "150px" }} />
-            <h2 className="mt-3 fw-bold">Login In</h2>
+            <h2 className="mt-3 fw-bold">Login</h2>
             <p className="text-light small">
               Enter your credentials to access your account
             </p>
@@ -165,7 +165,7 @@ const Login = () => {
                 transition: "0.3s",
               }}
             >
-              Login In
+              Login
             </button>
           </form>
 
