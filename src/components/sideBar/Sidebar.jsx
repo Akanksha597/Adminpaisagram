@@ -131,6 +131,9 @@ const handleLogout = () => {
             { key: '1', icon: <AppstoreOutlined />, label: 'Dashboard', onClick: () => navigate('/admin') },
             { key: '2', icon: <FileTextOutlined />, label: 'Event', onClick: () => navigate('/admin/Eventlist') },
              { key: '3', icon: <TeamOutlined />, label: 'Users', onClick: () => navigate('/admin/CampaignUsers') },
+               { key: '4', icon: <TeamOutlined />, label: 'Participants', onClick: () => navigate('/admin/participation') },
+            { key: '5', icon: <TeamOutlined />, label: 'Groups', onClick: () => navigate('/admin/creategroup') },
+             { key: '6', icon: <TeamOutlined />, label: 'Reports', onClick: () => navigate('/admin/reports') },
             { key: 'logout', icon: <LogoutOutlined />, label: 'Log Out', onClick: handleLogout },
           ]}
         />

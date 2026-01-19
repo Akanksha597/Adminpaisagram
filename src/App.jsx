@@ -23,6 +23,9 @@ import EventList from "../src/components/Event/EventList";
 import EditEvent from "../src/components/Event/Updatedevent";
 import Event from "../src/components/Event/Event"
 import AdminEventUsers from "./components/Event/AdminEventUsers";
+import ParticipationAdmin from "./components/participation/Participationform";
+import Creategroup from "./components/GroupAdminpanel/Groupadmin";
+import Reports from "./components/Reports/Reports";
 
 function App() {
   return (
@@ -55,6 +58,10 @@ function App() {
 
             <Route path="/admin/create-event" element={<Event />} />
             <Route path="/admin/CampaignUsers/" element={<AdminEventUsers />} />
+            <Route path="/admin/participation" element={<ParticipationAdmin />} />
+              <Route path="/admin/creategroup" element={<Creategroup />} />
+              <Route path="/admin/reports" element={<Reports />} />
+              
           </Route>
 
           {/* Catch-all */}
